@@ -18,6 +18,7 @@
 		<java.version>17</java.version>
 		<sonar.organization>vishnuvuyyur1</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<jacoco-maven-plugin>0.8.7</jacoco-maven-plugin>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -74,7 +75,7 @@
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
-				<version>0.8.7</version>
+				<version>${jacoco-maven-plugin}</version>
 				<executions>
 					<execution>
 						<id>prepare-agent</id>
@@ -90,8 +91,8 @@
 						<configuration>
 							<excludes>
 								<exclude>**/*Application.*</exclude>
-								<exclude>**/exception/*</exclude>
-								<exclude>**/security/*</exclude>
+								<exclude>com/company/api/exception/**</exclude>
+								<exclude>com/company/api/security/**</exclude>
 								<exclude>**/*entity/*</exclude>
 							</excludes>
 							<formats>
