@@ -125,7 +125,7 @@
     }
 ]
 ```
-## 5. PUT  http://localhost:8080/api/customers/1/address
+## 7. PUT  http://localhost:8080/api/customers/1/address
 - Auhentication: Basic 
 - username: user 
 - password: password  
