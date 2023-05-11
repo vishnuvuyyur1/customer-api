@@ -9,7 +9,6 @@
   - Environment: Embedded Tomcat container 
   
 # API Documentation
-  Operations:
   |No| Http | Endpoint | Description
 |----|---|---|---|
 |1| POST | http://localhost:8080/api/customers| create customer|
@@ -143,3 +142,6 @@ new address
         "address": "new address"
     }
 ```
+# Additional info
+ Health check: http://localhost:8080/actuator/health <br>
+ Metrics: http://localhost:8080/actuator/metrics/http.client.requests <br>
