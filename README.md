@@ -19,7 +19,8 @@
 |5| GET | http://localhost:8080/api/customers?lastName={value} |get customers by last name|
 |6| GET | http://localhost:8080/api/customers?firstName={value}&lastName={value} |get customers by both names|
 |7| PUT | http://localhost:8080/api/customers/{id}/address |Update customer address|
-
+---
+![Capture](https://github.com/vishnuvuyyur1/customer-api/assets/22782834/ae646bb4-c839-4e7b-94f1-b58628ae424c)
 ## 1. POST http://localhost:8080/api/customers
 - Auhentication: Basic 
 - username: user 
