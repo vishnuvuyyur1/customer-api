@@ -88,8 +88,15 @@
 							<goal>report</goal>
 						</goals>
 						<configuration>
+							<excludes>
+								<exclude>**/*Application.*</exclude>
+								<exclude>**/*exception/*</exclude>
+								<exclude>**/*security/*</exclude>
+								<exclude>**/*entity/*</exclude>
+							</excludes>
 							<formats>
 								<format>XML</format>
+								<format>HTML</format>
 							</formats>
 						</configuration>
 					</execution>
