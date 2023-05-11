@@ -4,6 +4,7 @@
   - Spring Boot 3+
   - Spring security: Basic Authentication
   - JPA
+  - Flyway
   - In Memory DB
   - Maven
   - Environment: Embedded Tomcat container 
