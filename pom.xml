@@ -90,8 +90,8 @@
 						<configuration>
 							<excludes>
 								<exclude>**/*Application.*</exclude>
-								<exclude>**/*exception/*</exclude>
-								<exclude>**/*security/*</exclude>
+								<exclude>**/exception/*</exclude>
+								<exclude>**/security/*</exclude>
 								<exclude>**/*entity/*</exclude>
 							</excludes>
 							<formats>
