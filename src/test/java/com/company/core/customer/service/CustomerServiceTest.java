@@ -24,7 +24,7 @@ import com.company.core.customer.entity.Customer;
 import com.company.core.customer.repository.CustomerRepository;
 
 @ExtendWith(MockitoExtension.class)
-public class CustomerServiceTest {
+class CustomerServiceTest {
 
 	@InjectMocks
 	private CustomerService customerService;
