@@ -9,6 +9,14 @@
   - Maven
   - Environment: Embedded Tomcat container 
   
+ ##### Run instructions
+  - Prerequsites: Installed git, maven, java 17
+  - From terminal or IDE, using terminal below
+  - git clone https://github.com/vishnuvuyyur1/customer-api.git
+  - cd customer-api
+  - mvn clean install
+  - mvn spring-boot:run
+  
 # API Documentation
   |No| Http | Endpoint | Description
 |----|---|---|---|
@@ -20,6 +28,7 @@
 |6| GET | http://localhost:8080/api/customers?firstName={value}&lastName={value} |get customers by both names|
 |7| PUT | http://localhost:8080/api/customers/{id}/address |Update customer address|
 ---
+ ##### Postman tool for testing 
 ![Capture](https://github.com/vishnuvuyyur1/customer-api/assets/22782834/ae646bb4-c839-4e7b-94f1-b58628ae424c)
 ## 1. POST http://localhost:8080/api/customers
 - Auhentication: Basic 
