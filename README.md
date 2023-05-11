@@ -144,4 +144,4 @@ new address
 ```
 # Additional info
  Health check: http://localhost:8080/actuator/health <br>
- Metrics: http://localhost:8080/actuator/metrics/http.client.requests <br>
+ Metrics: http://localhost:8080/actuator/metrics/http.server.requests <br>
